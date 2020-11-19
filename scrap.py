@@ -14,11 +14,11 @@ driver.get("http://deifoe.org/my/")
 print(driver.title)
 username = driver.find_element_by_id("username")
 username.click()
-username.send_keys("noorbhatia")
+username.send_keys("ENTER YOUR USERNAME")
 
 password = driver.find_element_by_id("password")
 password.click()
-password.send_keys("Sarbachannazm7$")
+password.send_keys("ENTER YOUR PASSWORD")
 
 #search2.send_keys(Keys.RETURN)
 login_button = driver.find_element_by_id("loginbtn")
